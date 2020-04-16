@@ -3,10 +3,17 @@
 using namespace std;
 int main()
 {
-  string x;
-  x = "Привет или ты уже дома\n"
-  "привет или ты уже дома ";
-  cout <<x<< endl;
-  return 0;
+  string consent;
+  cout <<"Здравутвуйте вы хотите играть?\n"
+  "a) Да\n"
+  "b) Нет\n"
+  "P.s вводите a или b(Английскими буквами)\n"
+  "Вы решили: ";
+  cin >> consent;
+  if (consent == "b"){
+  	cout <<"До свидания";
+  }
+  else{
+  	cout <<"Добро пожаловать"<<endl;
+  }
 }
-    
